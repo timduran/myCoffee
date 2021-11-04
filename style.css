@@ -1,0 +1,35 @@
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+a {
+  color: white;
+}
+
+p {
+  margin: 25px;
+}
+
+img {
+  margin-left: 350px;
+}
+.container {
+  width:100%;
+  height: 10000px;
+  background-color: burlywood;
+}
+
+.divyA { 
+  padding: 60px;
+  background: chocolate;
+  font-size: 100px;
+  color: black;
+  flex-direction: row;
+  font-family: "Dosis";
+  font-weight: bolder;
+}
