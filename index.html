@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caramel Frappe</title>
-    <img src="https://cooktoria.com/wp-content/uploads/2018/03/Caramel-Frappuccino-Starbucks-1.jpg" alt="Caramel Frappe" width="300" lenght="300">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
@@ -14,35 +14,99 @@
   </head>
 
   <body>
-    <h1> Why Caramel Frappe is the best Coffee!</h1>
-    <p>While the Starbucks Frappuccino has more of a coffee flavor, the Frappe has a very strong cream taste. Both flavors were
-    delicious, although I felt they were a bit too sweet. The Caramel one had a flavor that reminded me of coffee ice cream.
-    ... The McDonald's Frappe are a good addition to the McCafe menu.
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Caramel Frappe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More!
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Why its the best!</a></li>
+                <li><a class="dropdown-item" href="#">How to Make!</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Reviews</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Caramel>Chocalte</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
+    <div class="container-fluid">
+      <div class="row"> 
+        <h1>Why Caramel Frappe is the best Coffee!</h1>
 
-    <h2> Caramel Frappuccino Recipe (Homemade Caramel Frappe) </h2>
+        <div class="col-lg-3">
+            <img src="https://cooktoria.com/wp-content/uploads/2018/03/Caramel-Frappuccino-Starbucks-1.jpg" alt="Caramel Frappe" class="frappePic">
+        </div>
 
-    <p>This Caramel Frappuccino Recipe is my favorite breakfast! Is there any better way to start a day than with a Starbucks
-    Frappuccino?? Talk about addicting. When I used to work in accounting, there was a Starbucks about a mile from my
-    office. It was like a magnetic draw. SO hard to stay away. BUT ALL THE FAT AND SUGAR. Not worth it! This Homemade
-    Caramel Frappe is easy, delicious, and FAT FREE AND SUGAR FREE!! Hallelujah!
-    
-    Now that I know How to Make a Caramel Frappe at home, I’ll never buy one from Starbucks or McDonalds again. This creamy
-    dreamy frozen cappuccino is the ultimate way to wake up, and stay awake. Are you ready for this Caramel Frappe Recipe?
-    </p>
-    <a href="https://www.thecookierookie.com/skinny-caramel-frap/">how to make homemade frappe!-click here</a>
-  <div class="container">
-    <div class="divyA">
-      <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgMWIWnjv2ieg86cCeAlVKDNfRTApceV9RA&usqp=CAU">
-      McDonald's Caramel Frappé recipe is made with rich caramel flavor and a hint of coffee, blended with ice, and topped
-      with whipped topping and caramel drizzle.
-    </div>
-  </div>
-    </body>
+        <div class="col-lg-2 offset-lg-2 par-1">
+                <p>While the Starbucks Frappuccino has more of a coffee flavor, the Frappe has a very strong cream taste. Both flavors
+                  were
+                  delicious, although I felt they were a bit too sweet. The Caramel one had a flavor that reminded me of coffee ice
+                  cream.
+                  ... The McDonald's Frappe are a good addition to the McCafe menu.
+                </p>
+        </div>
 
-    
+        <div class="col-lg-2 offset-lg-3 par-2">
+            <h2> Caramel Frappuccino Recipe (Homemade Caramel Frappe) </h2>
+            
+            <p>This Caramel Frappuccino Recipe is my favorite breakfast! Is there any better way to start a day than with a
+              Starbucks
+              Frappuccino?? Talk about addicting. When I used to work in accounting, there was a Starbucks about a mile from my
+              office. It was like a magnetic draw. SO hard to stay away. BUT ALL THE FAT AND SUGAR. Not worth it! This Homemade
+              Caramel Frappe is easy, delicious, and FAT FREE AND SUGAR FREE!! Hallelujah!
+            
+              Now that I know How to Make a Caramel Frappe at home, I’ll never buy one from Starbucks or McDonalds again. This
+              creamy
+              dreamy frozen cappuccino is the ultimate way to wake up, and stay awake. Are you ready for this Caramel Frappe Recipe?
+            </p>
+        </div>
+      </div>
 
+      
   
-    </html>
+      
+      
+      
+      <a class="recipeLink" href="https://www.thecookierookie.com/skinny-caramel-frap/">how to make homemade frappe!-click here</a>
+      
+      <div class="container">
+        <div class="divyA">
+          <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgMWIWnjv2ieg86cCeAlVKDNfRTApceV9RA&usqp=CAU">
+          McDonald's Caramel Frappé recipe is made with rich caramel flavor and a hint of coffee, blended with ice, and topped
+          with whipped topping and caramel drizzle.
+        </div>
+      </div>
+      </div>
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+ </html>
 
